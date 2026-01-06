@@ -2,52 +2,70 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Contacto WhatsApp</title>
+  <title>ZYG ZAG | Contacto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background: #000;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
       margin: 0;
+      color: #fff;
     }
+
     .box {
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
       text-align: center;
-      max-width: 320px;
+      max-width: 340px;
       width: 100%;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px 20px;
     }
+
+    .logo {
+      max-width: 180px;
+      margin: 0 auto 25px;
+    }
+
     h1 {
-      font-size: 20px;
-      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: normal;
+      margin-bottom: 25px;
+      letter-spacing: 1px;
     }
+
     a {
       display: block;
       text-decoration: none;
-      color: white;
+      color: #000;
       background: #25D366;
       padding: 15px;
-      margin: 10px 0;
+      margin: 12px 0;
       border-radius: 8px;
       font-weight: bold;
+      transition: transform 0.15s ease;
     }
+
     a.secondary {
       background: #128C7E;
+    }
+
+    a:hover {
+      transform: scale(1.02);
     }
   </style>
 </head>
 <body>
   <div class="box">
-    <h1>Escríbenos por WhatsApp</h1>
+    <img src="logo.png" alt="ZYG ZAG" class="logo">
+
+    <h1>Contáctanos por WhatsApp</h1>
+
     <a href="https://wa.me/573012197761?text=Hola%20quiero%20información" target="_blank">
       📲 Ventas
     </a>
+
     <a href="https://wa.me/573002039580?text=Hola%20necesito%20ayuda" target="_blank" class="secondary">
       💬 Atención al cliente
     </a>
